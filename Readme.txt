@@ -1,1 +1,0 @@
-Website of the Rzadkosz company dealing with renting rooms
