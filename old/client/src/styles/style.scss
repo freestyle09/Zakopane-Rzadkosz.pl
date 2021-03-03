@@ -1,19 +1,5 @@
-@import './variables';
 
-body {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
-}
 
-@import './header';
-@import './home';
-@import './location';
-@import './lightbox';
-@import './contact';
-@import './contactForm';
-@import './footer';
-@import './goToTop';
 
 h2 {
   font: {
