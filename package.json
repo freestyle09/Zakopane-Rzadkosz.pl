@@ -1,28 +1,28 @@
 {
-  "name": "zakopane-rzadkosz.pl",
+  "name": "zakopane-rzadkosz",
   "version": "1.0.0",
-  "description": "Webpage of rzadkosz company for renting a room",
-  "main": "app.js",
+  "private": true,
   "scripts": {
-    "start": "node app.js",
-    "server": "nodemon app.js",
-    "client": "npm run start --prefix client",
-    "dev": "concurrently \"npm run server\" \"npm run client\""
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint:js": "eslint --ext \".js,.vue\" --ignore-path .gitignore .",
+    "lint": "yarn lint:js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/freestyle09/Zakopane-Rzadkosz.pl.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/freestyle09/Zakopane-Rzadkosz.pl/issues"
-  },
-  "homepage": "https://github.com/freestyle09/Zakopane-Rzadkosz.pl#readme",
   "dependencies": {
-    "concurrently": "^4.1.0",
-    "express": "^4.16.4",
-    "joi": "^14.3.1",
-    "nodemailer": "^5.1.1"
+    "core-js": "^3.8.3",
+    "nuxt": "^2.14.12"
+  },
+  "devDependencies": {
+    "@nuxtjs/eslint-config": "^5.0.0",
+    "@nuxtjs/eslint-module": "^3.0.2",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.18.0",
+    "eslint-config-prettier": "^7.2.0",
+    "eslint-plugin-nuxt": "^2.0.0",
+    "eslint-plugin-prettier": "^3.3.1",
+    "eslint-plugin-vue": "^7.5.0",
+    "prettier": "^2.2.1"
   }
 }
