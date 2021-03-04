@@ -1,7 +1,9 @@
 <template>
   <div>
     <Header />
-    <Nuxt />
+    <main class="main">
+      <Nuxt />
+    </main>
   </div>
 </template>
 <script>
@@ -15,5 +17,8 @@ module.exports = {
 <style lang="scss">
 .nuxt-link-active {
   color: var(--primary-color) !important;
+}
+.main {
+  padding: 3.125rem 0;
 }
 </style>
